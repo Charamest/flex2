@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="logo-minecraft"><img src="images/logo_minecraft.jpg" alt="Майнкрафт"> </div>
+        <div class="menu-header">
+            <div class="menu-item">
+                <img src="images/menu_1.png" alt="блок майнкрафта"> Про игру
+            </div>
+            <div class="menu-item">
+                <img src="images/menu_2.jpg" alt="сундук"> Инровые ресурсы
+            </div>
+        </div>
+
+    </header>
+    <section class="welcome">
+        <div class="link">
+            <a href="https://www.minecraft.net/ru-ru/login">Войти</a>
+            <a href="https://www.minecraft.net/ru-ru/redeem">Активировать код</a>
+        </div>
+        <img class="welcome-image" src="images/welcome.jpg" alt="приветсвие">
+        <div class="about-text">
+            Minecraft — это строительная игра в жанре «песочница», разработанная компанией Mojang Studios и разделённая
+            на
+            два издания: Java и Bedrock. Игровой процесс включает в себя взаимодействие игроков с игровым миром через
+            размещение и разрушение различных блоков в трёх разных измерениях
+            <div class="button">
+                <button> <img src="images/menu_3.jpg" alt="крипер" width="40"> Скачать игру </button>
+                <button> <img src="images/menu_3.jpg" alt="крипер" width="40"> Донат </button>
+                <button> <img src="images/menu_3.jpg" alt="крипер" width="40"> Помощь </button>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <h2 class="section-haeding">Что такое майнкрафт?</h2>
+        <div class="about-wrapper">
+            <div class=" about-image">
+                <img src="images/logo_2.jpg" alt="лого майнкрафт">
+            </div>
+            <div class="about-content">
+
+                <div class="about-item">
+                    <img src="images/menu_1.png" width="60px" height="60" alt="">
+                    <h3> Minecraft классная игра в кубическом мире</h3>
+                </div>
+                <div class="about-item">
+                    <img src="images/menu_2.jpg" width="65px" height="65" alt="">
+                    <h3>В Minecraft здорово проводить время и играть с друзьями</h3>
+                </div>
+                <div class="about-item">
+                    <img src="images/menu_3.jpg" width="60px" height="60" alt="">
+                    <h3> Minecraft подходит и взрослым</h3>
+                </div>
+            </div>
+    </section>
+    <form class="message-form">
+        <fieldset>
+            <legend>Обратная связь</legend>
+            <label class="label-text">
+                <span>Ваше имя</span>
+                <input class="message-input" type="name" name="username" required>
+            </label>
+            <label class="label-text">
+                <span>Ваша Фамилия</span>
+                <input class="message-input" type="surname" name="surname">
+            </label>
+            <label class="label-text">
+                <span>E-mail</span>
+                <input class="message-input" type="email" name="useremail" required>
+            </label>
+            <label class="label-text">
+                <span>Комментарий</span>
+                <textarea class="message-input" name="comment" cols="30" rows="10" required></textarea>
+            </label>
+            <label class="label-text">
+                <span>Телефон</span>
+                <input class="message-input" type="telephone" name="usertelephone">
+            </label>
+            <button class="submit">Отправить отзыв</button>
+        </fieldset>
+    </form>
+    <section class="slider">
+        <div class="section-haeding"> Какие бывают мобы в игре?
+        </div>
+        <div class="slider-wrapper">
+            <div class="slider-image">
+                <div class="arrow">&lt</div>
+                <img src="images/mob_1.jpg" alt="">
+                <div class="arrow">&gt</div>
+            </div>
+            <div class="desctirtion">
+                <div class="dicription-name">Эндермен</div>
+                <div class="discription-text">
+                    Большой и здой игровой моб в Minecraft.<br>
+                    Его тяжело убить и он умеете телепортироваться.<br>
+                </div>
+                <button class="description-button">Читать подробнее</button>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
